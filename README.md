@@ -10,7 +10,7 @@ The app is compatible with all devices running iOS 13+.
 
 The app aims mainly recruiters who could be interested in my profile.
 
-## License
+## License
 
 This app is under Apache-2.0 License.
 

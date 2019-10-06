@@ -21,3 +21,15 @@
 "intervidia_title" = "Intervidia";
 "intervidia_subtitle" = "PHP / Java (Android) / Swift (iOS)";
 "intervidia_desc" = "Application web et mobile permettant la gestion d'entretiens vidéo dans le cadre du recrutement en entreprise";
+"toa_title" = "Tales of Argonire: Sauver les bébés licornes!";
+"toa_subtitle" = "Unity 3D / C# / Android / iOS";
+"toa_desc" = "Save the baby unicorns est le premier jeu de la série Tales of Argonire. Dans ce jeu de type Endless Runner le joueur doit éviter des obstacles et collecter des gems afin de faire éclore tous les oeufs de licorne.";
+"flyflap_title" = "FlyFLAP!";
+"flyflap_subtitle" = "Unity 3D / C# / Android";
+"flyflap_desc" = "FlyFLAP! est un jeu d'arcade disponible sur Android. Le but du jeu est d'empêcher des mouches d'atteindre le bas de l'écran. Leurs apparitions sont de plus en plus rapprochées.";
+"flynyan_title" = "Fly the Nyan Cat";
+"flynyan_subtitle" = "C# / XNA / Windows Phone 7";
+"flynyan_desc" = "Développé dans le cadre de mes études, ce jeu est basé sur iCopter et met en scène le célèbre Nyan Cat.";
+"phphalo_title" = "PHP-HaloAPI";
+"phphalo_subtitle" = "PHP / Composer / API Halo";
+"phphalo_desc" = "Classe PHP de type wrapper permettant une intégration rapide de l'API officiel du jeu Halo, fournie par 343 Industries.";

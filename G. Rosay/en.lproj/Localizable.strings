@@ -21,3 +21,15 @@
 "intervidia_title" = "Intervidia";
 "intervidia_subtitle" = "PHP / Java (Android) / Swift (iOS)";
 "intervidia_desc" = "Web and mobile application allowing to manage video interview during recruitment process.";
+"toa_title" = "Tales of Argonire: Save the baby unicorns";
+"toa_subtitle" = "Unity 3D / C# / Android / iOS";
+"toa_desc" = "Save the baby unicorns is the first game of the Tales of Argonire series. This game is an Endless Runner in which the gamer has to avoid obstacles and collect gems to be able to hatch all the unicorn eggs.";
+"flyflap_title" = "FlyFLAP!";
+"flyflap_subtitle" = "Unity 3D / C# / Android";
+"flyflap_desc" = "FlyFLAP! is an arcade game available on Android. The purpose of this game is to stop flies before they reach the ground. They appear closer and closer during time.";
+"flynyan_title" = "Fly the Nyan Cat";
+"flynyan_subtitle" = "C# / XNA / Windows Phone 7";
+"flynyan_desc" = "In this game, you will be able to play with the famous Nyan Cat through space ! Be careful, the way is dangerous...";
+"phphalo_title" = "PHP-HaloAPI";
+"phphalo_subtitle" = "PHP / Composer / API Halo";
+"phphalo_desc" = "This class has for purpose to simplify the work of PHP developers who wants to use the official Halo API (beta).";

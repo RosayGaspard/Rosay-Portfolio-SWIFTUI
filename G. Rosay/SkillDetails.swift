@@ -16,7 +16,8 @@ struct SkillDescription: View {
                 .font(.system(size:130))
                 .padding(.bottom, 50.0)
             Text(skill.desc)
-                .frame(width:350, height:250)
+                .frame(width:350)
+                .fixedSize(horizontal: false, vertical:true)
          }
         .navigationBarTitle(Text(skill.name), displayMode: .inline)
     }

@@ -19,9 +19,14 @@
 		E340CD4E234A12470095F8AF /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E340CD4C234A12460095F8AF /* back.jpg */; };
 		E340CD4F234A12470095F8AF /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E340CD4D234A12460095F8AF /* 0.jpeg */; };
 		E340CD51234A1C130095F8AF /* Skills.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340CD50234A1C130095F8AF /* Skills.swift */; };
-		E340CD53234A1F630095F8AF /* SkillDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340CD52234A1F630095F8AF /* SkillDescription.swift */; };
+		E340CD53234A1F630095F8AF /* SkillDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340CD52234A1F630095F8AF /* SkillDetails.swift */; };
 		E340CD55234A27AB0095F8AF /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340CD54234A27AB0095F8AF /* Projects.swift */; };
 		E340CD57234A2A8E0095F8AF /* intervidia.png in Resources */ = {isa = PBXBuildFile; fileRef = E340CD56234A2A8E0095F8AF /* intervidia.png */; };
+		E340CD59234A3EDA0095F8AF /* ProjectDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340CD58234A3EDA0095F8AF /* ProjectDetails.swift */; };
+		E340CD5E234A48030095F8AF /* flythenyan.png in Resources */ = {isa = PBXBuildFile; fileRef = E340CD5A234A48020095F8AF /* flythenyan.png */; };
+		E340CD5F234A48030095F8AF /* haloapi.png in Resources */ = {isa = PBXBuildFile; fileRef = E340CD5B234A48020095F8AF /* haloapi.png */; };
+		E340CD60234A48030095F8AF /* flyflap.png in Resources */ = {isa = PBXBuildFile; fileRef = E340CD5C234A48030095F8AF /* flyflap.png */; };
+		E340CD61234A48030095F8AF /* toa.png in Resources */ = {isa = PBXBuildFile; fileRef = E340CD5D234A48030095F8AF /* toa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +67,14 @@
 		E340CD4C234A12460095F8AF /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
 		E340CD4D234A12460095F8AF /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
 		E340CD50234A1C130095F8AF /* Skills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skills.swift; sourceTree = "<group>"; };
-		E340CD52234A1F630095F8AF /* SkillDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDescription.swift; sourceTree = "<group>"; };
+		E340CD52234A1F630095F8AF /* SkillDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillDetails.swift; sourceTree = "<group>"; };
 		E340CD54234A27AB0095F8AF /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
 		E340CD56234A2A8E0095F8AF /* intervidia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intervidia.png; sourceTree = "<group>"; };
+		E340CD58234A3EDA0095F8AF /* ProjectDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetails.swift; sourceTree = "<group>"; };
+		E340CD5A234A48020095F8AF /* flythenyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flythenyan.png; sourceTree = "<group>"; };
+		E340CD5B234A48020095F8AF /* haloapi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haloapi.png; sourceTree = "<group>"; };
+		E340CD5C234A48030095F8AF /* flyflap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flyflap.png; sourceTree = "<group>"; };
+		E340CD5D234A48030095F8AF /* toa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,10 @@
 		E340CD14234A11C20095F8AF /* G. Rosay */ = {
 			isa = PBXGroup;
 			children = (
+				E340CD5C234A48030095F8AF /* flyflap.png */,
+				E340CD5A234A48020095F8AF /* flythenyan.png */,
+				E340CD5B234A48020095F8AF /* haloapi.png */,
+				E340CD5D234A48030095F8AF /* toa.png */,
 				E340CD4D234A12460095F8AF /* 0.jpeg */,
 				E340CD4C234A12460095F8AF /* back.jpg */,
 				E340CD56234A2A8E0095F8AF /* intervidia.png */,
@@ -127,8 +141,9 @@
 				E340CD1D234A11C40095F8AF /* Preview Content */,
 				E340CD49234A11E70095F8AF /* Localizable.strings */,
 				E340CD50234A1C130095F8AF /* Skills.swift */,
-				E340CD52234A1F630095F8AF /* SkillDescription.swift */,
+				E340CD52234A1F630095F8AF /* SkillDetails.swift */,
 				E340CD54234A27AB0095F8AF /* Projects.swift */,
+				E340CD58234A3EDA0095F8AF /* ProjectDetails.swift */,
 			);
 			path = "G. Rosay";
 			sourceTree = "<group>";
@@ -267,6 +282,10 @@
 				E340CD4F234A12470095F8AF /* 0.jpeg in Resources */,
 				E340CD22234A11C40095F8AF /* LaunchScreen.storyboard in Resources */,
 				E340CD4E234A12470095F8AF /* back.jpg in Resources */,
+				E340CD61234A48030095F8AF /* toa.png in Resources */,
+				E340CD5F234A48030095F8AF /* haloapi.png in Resources */,
+				E340CD60234A48030095F8AF /* flyflap.png in Resources */,
+				E340CD5E234A48030095F8AF /* flythenyan.png in Resources */,
 				E340CD47234A11E70095F8AF /* Localizable.strings in Resources */,
 				E340CD1F234A11C40095F8AF /* Preview Assets.xcassets in Resources */,
 				E340CD1C234A11C40095F8AF /* Assets.xcassets in Resources */,
@@ -297,9 +316,10 @@
 			files = (
 				E340CD16234A11C20095F8AF /* AppDelegate.swift in Sources */,
 				E340CD51234A1C130095F8AF /* Skills.swift in Sources */,
+				E340CD59234A3EDA0095F8AF /* ProjectDetails.swift in Sources */,
 				E340CD18234A11C20095F8AF /* SceneDelegate.swift in Sources */,
 				E340CD55234A27AB0095F8AF /* Projects.swift in Sources */,
-				E340CD53234A1F630095F8AF /* SkillDescription.swift in Sources */,
+				E340CD53234A1F630095F8AF /* SkillDetails.swift in Sources */,
 				E340CD1A234A11C20095F8AF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

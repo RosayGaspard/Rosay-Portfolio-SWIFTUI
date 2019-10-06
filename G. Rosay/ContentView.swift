@@ -26,11 +26,12 @@ struct ContentView: View {
                     }
                 }
                 .frame(width:350, height:200.0)
+                .padding(.bottom, 50)
                 
                 Text("works_title")
                     .font(.headline)
                 List(projects){ project in
-                    NavigationLink(destination: Text("test")){
+                    NavigationLink(destination: ProjectDetails(project: project)){
                         Image(project.gImageName).resizable()
                             .scaledToFit()
                             .frame(width:50.0, height:50.0)
@@ -44,10 +45,11 @@ struct ContentView: View {
                         }
                     }
                 }
-                .frame(width:350, height:200.0)
+                .frame(width:350, height:400.0)
+                .padding(.bottom, 50)
             }
         }
-        .navigationBarTitle(Text("Gaspard Rosay"))
+        .navigationBarTitle(Text("Gaspard Rosay"), displayMode: .inline)
     }
 }
 
@@ -81,15 +83,18 @@ struct AboutMe: View{
         VStack(){
             Text("about_me")
                 .font(.headline)
+                .padding(.bottom, 30)
             
             Text("about_me_full")
                 .font(.body)
                 .fontWeight(.medium)
                 .lineLimit(nil)
                 .multilineTextAlignment(.leading)
-                .frame(width: 350.0, height:250.0)
+                .frame(width: 350.0)
+                .fixedSize(horizontal: false, vertical: true)
 
         }
+        .padding(.bottom, 50)
     }
 }
 

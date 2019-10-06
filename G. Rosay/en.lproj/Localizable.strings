@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  G. Rosay
+
+  Created by Gaspard Rosay on 06.10.19.
+  Copyright © 2019 Gaspard Rosay. All rights reserved.
+*/
+"full_stack" = "Full stack developer";
+"about_me" = "About me";
+"about_me_full" = "With a strong background of more than 6 years in development, I bring innovative and modern solutions.\n\nMy logical sense and my technological mastery allowed me to successfully accomplish every projects entrusted to me. I take new challenges with determination and apply my skills acquired over the years.";
+"skills_title" = "Skills";
+"web_fs" = "Web full stack";
+"web_fs_desc" = "Web development has been one of my hobbies since my youngest age. It's all natural that I've specialized myself in this domain after my studies.\n\nWith a preference for backend development, I master web standards and create websites that are responsive, dynamics and moderns.";
+"mobile" = "Mobile";
+"mobile_desc" = "With first test in 2010 on my HTC Magic, and finally a first true application in 2013, mobile development is for me the logical and necessary complement to web development.";
+"game" = "Game";
+"game_desc" = "Passionate by video games for a while, I've created my first mobile games as early as 2011, with notably some publishing on Windows Mobile, Android and iOS.\n\nI develop all my games using Unity 3D and C#";
+"photo" = "Photography";
+"photo_desc" = "No matter if it's for the leisure or to embellish a website, photography is one of my hobbies.\n\nLogical combination with web development, photography allows me to bring to life activities and products on websites I develop.";
+"works_title" = "Projects";
+"intervidia_title" = "Intervidia";
+"intervidia_subtitle" = "PHP / Java (Android) / Swift (iOS)";
+"intervidia_desc" = "Web and mobile application allowing to manage video interview during recruitment process.";

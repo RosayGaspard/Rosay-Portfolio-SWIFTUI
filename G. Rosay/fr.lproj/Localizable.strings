@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  G. Rosay
+
+  Created by Gaspard Rosay on 06.10.19.
+  Copyright © 2019 Gaspard Rosay. All rights reserved.
+*/
+"full_stack" = "Développeur full-stack";
+"about_me" = "À propos de moi";
+"about_me_full" = "Fort d’une expérience professionnelle de plus de 6 ans dans le développement, j’apporte des solutions innovantes et modernes.\n\nMon sens logique et ma maîtrise technologique m’ont permis de mener à bien l’ensemble des projets m’ayant été confiés. J’aborde les nouveaux défis avec détermination et applique mon savoir-faire acquis au fil des ans.";
+"skills_title" = "Compétences";
+"web_fs" = "Web full stack";
+"web_fs_desc" = "Le développement web fait partie de mes hobbies depuis l'âge de 10 ans, c'est donc logiquement que je me suis spécialisé dans ce domaine dès la fin de mes études.\n\nAvec une préfèrence pour le backend (développement côté serveur), je maitrîse les standards du web et crée des sites webs à la fois responsifs, dynamiques et modernes.";
+"mobile" = "Mobile";
+"mobile_desc" = "Avec des premiers essais en 2010 sur mon superbe HTC Magic, puis une première véritable application en 2013, le développement mobile est pour moi le complément logique et indispensable au développement web.";
+"game" = "Jeux vidéo";
+"game_desc" = "Passionné de jeux vidéo depuis toujours, j'ai créé mes premiers jeux mobiles dès 2011 avec notamment des publications sur Windows Mobile, Andoid et iOS.\n\nJe développe l'ensemble de mes jeux avec Unity 3D et C#.";
+"photo" = "Photographie";
+"photo_desc" = "Qu'il s'agisse de prise de vue pour le plaisir ou pour agrémenter un site internet, la photographie fait partie de mes loisirs.\n\nCombinaison logique avec le développement web, la photographie me permet de mettre en avant les activités et les produits présentés sur les sites web que je développe.";
+"works_title" = "Réalisations";
+"intervidia_title" = "Intervidia";
+"intervidia_subtitle" = "PHP / Java (Android) / Swift (iOS)";
+"intervidia_desc" = "Application web et mobile permettant la gestion d'entretiens vidéo dans le cadre du recrutement en entreprise";

@@ -4,6 +4,8 @@
 
 This application is nothing else than my portfolio, developed in Swift and using SwiftUI.
 
+Localization is enabled and compatible with French and English.
+
 The app is compatible with all devices running iOS 13+.
 
 ## How to install 

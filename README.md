@@ -16,6 +16,5 @@ This app is under Apache-2.0 License.
 
 ## ToDo:
 
-* Send to AppStore (in progress)
 * Eventually get data from a DB
 

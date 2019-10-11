@@ -21,6 +21,7 @@ struct ContentView: View {
                 List(skills){ skill in
                     NavigationLink(destination: SkillDescription(skill: skill)){
                         Image(systemName: skill.skillIcon)
+                            .frame(width:50.0)
                         Text(skill.skillName)
                             .font(.body)
                     }
@@ -36,7 +37,7 @@ struct ContentView: View {
                             .scaledToFit()
                             .frame(width:50.0, height:50.0)
                             .cornerRadius(5.0)
-                        VStack{
+                        VStack(alignment: .leading){
                             Text(project.gName)
                                 .font(.body)
                             Text(project.gSubtitle)

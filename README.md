@@ -4,7 +4,7 @@
 
 This application is nothing else than my portfolio, developed in Swift and using SwiftUI.
 
-Localization is enabled and compatible with French and English.
+Localization is enabled and compatible with French and English (use device language if one of those, if not use English).
 
 The app is compatible with all devices running iOS 13+.
 

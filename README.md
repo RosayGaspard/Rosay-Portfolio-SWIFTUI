@@ -14,7 +14,7 @@ As the app isn't intended for large audiences, it can't be uploaded on the AppSt
 
 You need to clone this repo and compile the app via Xcode in order to install on your iPhone.
 
-/!\ Some texts may be truncated when using the simulator, it's a know bug with a SwiftUI parameter.
+**Some texts may be truncated when using the simulator, it's a known bug with a SwiftUI parameter.**
 
 ### Requirements
 

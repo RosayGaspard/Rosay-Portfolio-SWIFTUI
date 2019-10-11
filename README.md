@@ -34,3 +34,15 @@ This app is under Apache-2.0 License.
 
 * Eventually get data from a DB
 
+## Screenshots
+
+### Light theme
+![Light theme 1](screenshots/1.PNG "Light theme - 1")
+![Light theme 2](screenshots/2.PNG "Light theme - 2")
+
+### Dark theme
+![Dark theme 1](screenshots/4.PNG "Dark theme - 1")
+![Dark theme 2](screenshots/3.PNG "Dark theme - 2")
+
+
+

@@ -18,15 +18,25 @@ struct ContentView: View {
                 AboutMe()
                 Text("skills_title")
                     .font(.headline)
-                List(skills){ skill in
-                    NavigationLink(destination: SkillDescription(skill: skill)){
+                    .padding(.bottom, 15)
+                ForEach(skills){ skill in
+                    HStack{
                         Image(systemName: skill.skillIcon)
                             .frame(width:50.0)
-                        Text(skill.skillName)
-                            .font(.body)
+                        VStack(alignment: .leading){
+                            Text(skill.skillName)
+                                .font(.body)
+                            Text(skill.desc)
+                                .font(.caption)
+                                .lineLimit(nil)
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(.secondary)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
                     }
+                    
                 }
-                .frame(width:350, height:200.0)
+                .frame(width: UIScreen.main.bounds.width - 10)
                 .padding(.bottom, 50)
                 
                 Text("works_title")
@@ -46,7 +56,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                .frame(width:350, height:400.0)
+                .frame(width: UIScreen.main.bounds.width, height:400.0)
                 .padding(.bottom, 50)
             }
         }
@@ -91,9 +101,9 @@ struct AboutMe: View{
                 .fontWeight(.medium)
                 .lineLimit(nil)
                 .multilineTextAlignment(.leading)
-                .frame(width: 350.0)
+                .frame(width: UIScreen.main.bounds.width - 10)
                 .fixedSize(horizontal: false, vertical: true)
-
+            
         }
         .padding(.bottom, 50)
     }

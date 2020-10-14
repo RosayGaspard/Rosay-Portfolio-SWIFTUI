@@ -23,10 +23,11 @@ struct ProjectDetails: View {
                 .font(.title)
             Text(project.gSubtitle)
                 .font(.headline)
+                .frame(width: UIScreen.main.bounds.width - 10)
                 .padding(.bottom, 50.0)
             VStack{
             Text(project.gDesc)
-                .frame(width: 350.0)
+                .frame(width: UIScreen.main.bounds.width - 10)
                 .fixedSize(horizontal: false, vertical: true)
                 .lineLimit(nil)
             }

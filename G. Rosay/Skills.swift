@@ -20,8 +20,7 @@ struct Skill : Identifiable{
 }
 
 let skillsData = [
-    Skill(icon: "desktopcomputer", name: NSLocalizedString("web_fs", comment: "web fs"), desc: NSLocalizedString("web_fs_desc", comment: "web fs desc")),
     Skill(icon: "phone", name: NSLocalizedString("mobile", comment: "mobile"), desc: NSLocalizedString("mobile_desc", comment: "mobile desc")),
-    Skill(icon: "gamecontroller", name: NSLocalizedString("game", comment: "game"), desc: NSLocalizedString("game_desc", comment: "game desc")),
-    Skill(icon: "camera", name: NSLocalizedString("photo", comment: "photo"), desc: NSLocalizedString("photo_desc", comment: "photo desc"))
+    Skill(icon: "desktopcomputer", name: NSLocalizedString("web_fs", comment: "web fs"), desc: NSLocalizedString("web_fs_desc", comment: "web fs desc")),
+    Skill(icon: "gamecontroller", name: NSLocalizedString("game", comment: "game"), desc: NSLocalizedString("game_desc", comment: "game desc"))
 ]
